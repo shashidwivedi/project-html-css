@@ -1,0 +1,114 @@
+@import url('https://fonts.googleapis.com/css2?family=Literata:wght@200;300;400;600;900&display=swap');
+
+* {
+  box-sizing: border-box;
+}
+
+/* Typography */
+html {
+  font-family: 'Literata', serif;
+  font-size: 10px;
+}
+
+body {
+  font-size: 1.6rem;
+  padding: 1rem;
+}
+
+p {
+  font-size: 1.4rem;
+}
+
+.header {
+  border-bottom: 3px solid black;
+}
+
+.header__brand {
+  font-size: 6rem;
+  font-weight: 300;
+  text-align: center;
+}
+
+.story__title {
+  font-size: 3rem;
+  font-weight: 300;
+  text-align: center;
+  font-style: italic;
+}
+
+/* Layout */
+.row {
+  width: 100%;
+  display: flex;
+  align-items: stretch;
+  border-bottom: 3px solid black;
+  border-left: 1px solid black;
+}
+
+.col-1-of-4 {
+  width: 25%;
+}
+
+.col-2-of-4 {
+  width: 50%;
+}
+
+.col-3-of-4 {
+  width: 75%;
+}
+
+.story {
+  border-right: 1px solid black;
+}
+
+.story {
+  padding: 0 10px;
+}
+
+.story__image {
+  width: 100%;
+}
+
+.more-sections {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+}
+
+.section-item {
+  display: flex;
+  align-items: center;
+  flex-grow: 1;
+}
+
+.section-link {
+  text-decoration: none;
+  font-size: 3rem;
+  font-weight: 600;
+  padding-left: 3rem;
+  color: rgb(63, 63, 63);
+}
+
+/* colors */
+.section-item--politics {
+  background-color: #f0e0b0;
+}
+
+.section-item--tech {
+  background-color: #ff6666;
+}
+
+.section-item--local {
+  background-color: #ffaaaa;
+}
+
+.section-item--opinion {
+  background-color: #abeed5;
+}
+
+.section-item--sports {
+  background-color: #ccffec;
+}
